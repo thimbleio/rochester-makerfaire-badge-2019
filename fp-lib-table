@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rochester_makerfaire)(type KiCad)(uri /home/davidb/thimble/kits/rochester_makerfaire_badge/rochester_makerfaire)(options "")(descr ""))
+)
