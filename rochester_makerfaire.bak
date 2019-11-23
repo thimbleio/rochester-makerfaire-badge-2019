@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+LIBS:rochester_makerfaire-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5D9E8F6D
+P 4850 2550
+F 0 "D1" V 4889 2433 50  0000 R CNN
+F 1 "LED" V 4798 2433 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4850 2550 50  0001 C CNN
+F 3 "~" H 4850 2550 50  0001 C CNN
+	1    4850 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5D9E91FA
+P 4100 2550
+F 0 "BT1" H 4208 2596 50  0000 L CNN
+F 1 "Battery" H 4208 2505 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3001_1x12mm" V 4100 2610 50  0001 C CNN
+F 3 "~" V 4100 2610 50  0001 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2750 4100 2900
+Wire Wire Line
+	4100 2900 4850 2900
+Wire Wire Line
+	4850 2900 4850 2700
+Wire Wire Line
+	4100 2350 4100 2100
+Wire Wire Line
+	4100 2100 4850 2100
+Wire Wire Line
+	4850 2100 4850 2400
+$Comp
+L Device:LED D2
+U 1 1 5D9EBB2C
+P 5200 2550
+F 0 "D2" V 5239 2433 50  0000 R CNN
+F 1 "LED" V 5148 2433 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 5200 2550 50  0001 C CNN
+F 3 "~" H 5200 2550 50  0001 C CNN
+	1    5200 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D9ED668
+P 5550 2550
+F 0 "D3" V 5589 2433 50  0000 R CNN
+F 1 "LED" V 5498 2433 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5D9ED9F9
+P 5900 2550
+F 0 "D4" V 5939 2433 50  0000 R CNN
+F 1 "LED" V 5848 2433 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5D9EDF08
+P 6250 2550
+F 0 "D5" V 6289 2433 50  0000 R CNN
+F 1 "LED" V 6198 2433 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2900 5200 2700
+Connection ~ 4850 2900
+Wire Wire Line
+	5200 2400 5200 2100
+Wire Wire Line
+	5200 2100 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	5200 2100 5550 2100
+Wire Wire Line
+	5550 2100 5550 2400
+Connection ~ 5200 2100
+Wire Wire Line
+	5550 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2400
+Connection ~ 5550 2100
+Wire Wire Line
+	5900 2100 6250 2100
+Wire Wire Line
+	6250 2100 6250 2400
+Connection ~ 5900 2100
+Wire Wire Line
+	6250 2700 6250 2900
+Wire Wire Line
+	4850 2900 5200 2900
+Connection ~ 5200 2900
+Wire Wire Line
+	5200 2900 5550 2900
+Wire Wire Line
+	5550 2700 5550 2900
+Connection ~ 5550 2900
+Wire Wire Line
+	5550 2900 5900 2900
+Wire Wire Line
+	5900 2700 5900 2900
+Connection ~ 5900 2900
+Wire Wire Line
+	5900 2900 6250 2900
+$EndSCHEMATC
